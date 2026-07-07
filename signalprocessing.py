@@ -16,7 +16,7 @@ print(filtered_signal[:10])
 #
 results = ((sin_result[:len(filtered_signal)] - filtered_signal)*2)
 mean = np.mean(results)
-print(f'Filtreleme sonrası oralama hata :',mean)
+print(f'Filtreleme sonrası ortalama hata :',mean)
 
       
 
